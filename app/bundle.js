@@ -19936,7 +19936,7 @@
 	                        _react2.default.createElement(
 	                            'h2',
 	                            null,
-	                            'Support us on Patreon!'
+	                            'Support us on Kickstarter!'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
@@ -19954,7 +19954,7 @@
 	                        _react2.default.createElement(
 	                            'h2',
 	                            null,
-	                            'Follow us on social media'
+	                            'Follow us on social media!'
 	                        ),
 	                        _react2.default.createElement(
 	                            'p',
