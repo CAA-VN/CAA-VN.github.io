@@ -24,13 +24,13 @@ class App extends React.Component{
                 <section className="info static-greyer">
                 <img src="images/rosa.png"/>
                 <div className="info-text-left">
-                    <h2>Support us on Patreon!</h2>
+                    <h2>Support us on Kickstarter!</h2>
                     <p>We're just a bunch of volunteer undergrad students, any contributions would be greatly appreciated!</p>
                 </div>
                 </section>
                 <section className="info static">
                 <div className="info-text-right">
-                    <h2>Follow us on social media</h2>
+                    <h2>Follow us on social media!</h2>
                     <p>Help us get the word out!</p>
                 </div>
                 <img src="images/soda.png"/>
