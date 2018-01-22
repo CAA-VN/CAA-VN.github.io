@@ -130,7 +130,8 @@ h4{
 
 /* Sets the actual background images to adorable kitties. This part is crucial. */
 .bg1::after {
-    background-image: url('https://caa-vn.github.io/images/camp.jpg');
+    background-image: url('images/glade.jpg');
+    background-size: cover;
 }
 
 .bg2::after {
