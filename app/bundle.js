@@ -19828,6 +19828,10 @@
 	
 	var _reactScrollParallax = __webpack_require__(160);
 	
+	var _sections = __webpack_require__(181);
+	
+	var _sections2 = _interopRequireDefault(_sections);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -19902,68 +19906,7 @@
 	                        )
 	                    )
 	                ),
-	                _react2.default.createElement(
-	                    'section',
-	                    { className: 'info static' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'info-text-right' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            'Undeclared is a game starring six characters, six routes, and you! '
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'Created by a team of students, the video game explores the gritty transition from high school to college. Every step forward feels like five steps back, and something framed as a utopia quickly becomes a nightmare. This is the darker world that pamphlets won\u2019t show you. Unfortunately, it\u2019s also the more common one.'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'In the game, you will meet students who represent ideologies that a person may experience. From freshmen beginning college alongside you, to upperclassmen who have yet to plan their next steps, to people who seem too certain about themselves, to a transfer student who challenges the very notion of truth, these are the friends you face your challenges with.'
-	                        )
-	                    ),
-	                    _react2.default.createElement('img', { src: 'images/vi.jpg' })
-	                ),
-	                _react2.default.createElement(
-	                    'section',
-	                    { className: 'info static-greyer' },
-	                    _react2.default.createElement('img', { src: 'images/rosa.png' }),
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'info-text-left' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            'Support us on Kickstarter!'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'We\'re just a bunch of volunteer undergrad students, any contributions would be greatly appreciated!'
-	                        )
-	                    )
-	                ),
-	                _react2.default.createElement(
-	                    'section',
-	                    { className: 'info static' },
-	                    _react2.default.createElement(
-	                        'div',
-	                        { className: 'info-text-right' },
-	                        _react2.default.createElement(
-	                            'h2',
-	                            null,
-	                            'Follow us on social media!'
-	                        ),
-	                        _react2.default.createElement(
-	                            'p',
-	                            null,
-	                            'Help us get the word out!'
-	                        )
-	                    ),
-	                    _react2.default.createElement('img', { src: 'images/soda.png' })
-	                )
+	                _react2.default.createElement(_sections2.default, null)
 	            );
 	        }
 	    }]);
@@ -21999,6 +21942,116 @@
 	};
 	exports.default = ParallaxProvider;
 	module.exports = exports['default'];
+
+/***/ }),
+/* 181 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var Sections = function (_React$Component) {
+	    _inherits(Sections, _React$Component);
+	
+	    function Sections() {
+	        _classCallCheck(this, Sections);
+	
+	        return _possibleConstructorReturn(this, (Sections.__proto__ || Object.getPrototypeOf(Sections)).apply(this, arguments));
+	    }
+	
+	    _createClass(Sections, [{
+	        key: "render",
+	        value: function render() {
+	            return _react2.default.createElement(
+	                "div",
+	                null,
+	                _react2.default.createElement(
+	                    "section",
+	                    { className: "info static" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "info-text-right" },
+	                        _react2.default.createElement(
+	                            "h2",
+	                            null,
+	                            "Undeclared is a game starring six characters, six routes, and you! "
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Created by a team of students, the video game explores the gritty transition from high school to college. Every step forward feels like five steps back, and something framed as a utopia quickly becomes a nightmare. This is the darker world that pamphlets won\u2019t show you. Unfortunately, it\u2019s also the more common one."
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "In the game, you will meet students who represent ideologies that a person may experience. From freshmen beginning college alongside you, to upperclassmen who have yet to plan their next steps, to people who seem too certain about themselves, to a transfer student who challenges the very notion of truth, these are the friends you face your challenges with."
+	                        )
+	                    ),
+	                    _react2.default.createElement("img", { src: "images/vi.jpg" })
+	                ),
+	                _react2.default.createElement(
+	                    "section",
+	                    { className: "info static-greyer" },
+	                    _react2.default.createElement("img", { src: "images/rosa.png" }),
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "info-text-left" },
+	                        _react2.default.createElement(
+	                            "h2",
+	                            null,
+	                            "Support us on Kickstarter!"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "We're just a bunch of volunteer undergrad students, any contributions would be greatly appreciated!"
+	                        )
+	                    )
+	                ),
+	                _react2.default.createElement(
+	                    "section",
+	                    { className: "info static" },
+	                    _react2.default.createElement(
+	                        "div",
+	                        { className: "info-text-right" },
+	                        _react2.default.createElement(
+	                            "h2",
+	                            null,
+	                            "Follow us on social media!"
+	                        ),
+	                        _react2.default.createElement(
+	                            "p",
+	                            null,
+	                            "Help us get the word out!"
+	                        )
+	                    ),
+	                    _react2.default.createElement("img", { src: "images/soda.png" })
+	                )
+	            );
+	        }
+	    }]);
+	
+	    return Sections;
+	}(_react2.default.Component);
+	
+	exports.default = Sections;
 
 /***/ })
 /******/ ]);
