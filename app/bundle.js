@@ -19924,12 +19924,12 @@
 	                            'In the game, you will meet students who represent ideologies that a person may experience. From freshmen beginning college alongside you, to upperclassmen who have yet to plan their next steps, to people who seem too certain about themselves, to a transfer student who challenges the very notion of truth, these are the friends you face your challenges with.'
 	                        )
 	                    ),
-	                    _react2.default.createElement('img', { src: 'app/images/vi.jpg' })
+	                    _react2.default.createElement('img', { src: 'images/vi.jpg' })
 	                ),
 	                _react2.default.createElement(
 	                    'section',
 	                    { className: 'info static-greyer' },
-	                    _react2.default.createElement('img', { src: 'app/images/rosa.png' }),
+	                    _react2.default.createElement('img', { src: 'images/rosa.png' }),
 	                    _react2.default.createElement(
 	                        'div',
 	                        { className: 'info-text-left' },
@@ -19962,7 +19962,7 @@
 	                            'Help us get the word out!'
 	                        )
 	                    ),
-	                    _react2.default.createElement('img', { src: 'app/images/soda.png' })
+	                    _react2.default.createElement('img', { src: 'images/soda.png' })
 	                )
 	            );
 	        }
