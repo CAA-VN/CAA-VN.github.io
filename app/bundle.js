@@ -19861,47 +19861,51 @@
 	                    _react2.default.createElement('div', { className: 'overlay' }),
 	                    _react2.default.createElement(
 	                        'div',
-	                        { className: 'title' },
+	                        { className: 'white_box' },
 	                        _react2.default.createElement(
-	                            'h1',
-	                            null,
+	                            'div',
+	                            { className: 'title' },
 	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'gold' },
-	                                'Un'
+	                                'h1',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'gold' },
+	                                    'Un'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'blue' },
+	                                    'declared'
+	                                )
 	                            ),
 	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'blue' },
-	                                'declared'
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'h3',
-	                            null,
-	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'gold' },
-	                                '\u30A2\u30F3'
+	                                'h3',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'gold' },
+	                                    '\u30A2\u30F3'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'blue' },
+	                                    '\u30C7\u30A3\u30AF\u30EC\u30A2\u30C3\u30C9'
+	                                )
 	                            ),
 	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'blue' },
-	                                '\u30C7\u30A3\u30AF\u30EC\u30A2\u30C3\u30C9'
-	                            )
-	                        ),
-	                        _react2.default.createElement(
-	                            'h4',
-	                            null,
-	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'gold' },
-	                                'A Ber'
-	                            ),
-	                            _react2.default.createElement(
-	                                'b',
-	                                { className: 'blue' },
-	                                'keley Visual Novel'
+	                                'h4',
+	                                null,
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'gold' },
+	                                    'A Ber'
+	                                ),
+	                                _react2.default.createElement(
+	                                    'b',
+	                                    { className: 'blue' },
+	                                    'keley Visual Novel'
+	                                )
 	                            )
 	                        )
 	                    )
